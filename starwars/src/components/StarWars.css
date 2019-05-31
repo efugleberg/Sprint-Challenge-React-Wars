@@ -1,0 +1,28 @@
+.characters {
+    background: beige;
+    background-image: url('./mini-trooper.jpg');
+    background-size: cover;
+    opacity: .7;
+    max-height: 200px;
+    margin: 1.5rem;
+    padding: 1rem;
+    width: 400px;
+    box-shadow: 0 6px 6px black;
+}
+
+.starWarsArray {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.name {
+    text-decoration: underline;
+}
+p {
+    font-weight: 900;
+    opacity: 1;
+    color:black;
+    padding-right: 20%;
+}
